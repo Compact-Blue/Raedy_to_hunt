@@ -1,13 +1,14 @@
 # Ready_to_hunt
 A handy tool for setting up a server for bug hunting.
 
-# Installation
+
+## Installation
 1. ``` git clone https://github.com/Compact-Blue/Ready_to_hunt.git && cd Ready_to_hunt ```
 2. ``` chmod +x setup.sh && ./setup.sh ```
 
-# What does Ready_to_hunt do?
+## What does Ready_to_hunt do?
 
-## Installs all the packages and programs you might need: 
+### Installs all the packages and programs you might need: 
 - vim
 - curl
 - zsh
@@ -42,7 +43,7 @@ A handy tool for setting up a server for bug hunting.
 - nmap
 - libpcap-dev
 
-## Installs all the tools you need for bug hunting:
+### Installs all the tools you need for bug hunting:
 #### Wide Recon Tools
 - subfinder
 - asnmap
@@ -85,7 +86,7 @@ A handy tool for setting up a server for bug hunting.
 - notify
 - cook
 
-## Adds helpful bash commands for hunting to your .bashrc:
+### Adds helpful bash commands for hunting to your .bashrc:
 `Note`: You can run any command by calling it and providing inputs if needed.
 - get_certificate
 - get_certificate_nuclei
